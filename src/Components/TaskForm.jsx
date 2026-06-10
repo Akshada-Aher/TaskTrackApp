@@ -2,7 +2,7 @@ import { useState } from "react";
 import "./TaskForm.css";
 
 const TaskForm = ({ addTask }) => {
-
+console.log("TaskForm>>>>>>>>")
   const [taskName, setTaskName] = useState("");
   const [tag, setTag] = useState("React");
   const [status, setStatus] = useState("Todo");
